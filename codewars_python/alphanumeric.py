@@ -1,5 +1,7 @@
 import re
 
+"".isalnum()
+
 def alphanumeric(password):
     pattern = re.compile(r'^[a-zA-Z0-9]+$')
 
